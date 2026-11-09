@@ -1,1 +1,20 @@
-@import "tailwindcss"
+@import 'tailwindcss';
+@font-face {
+  font-family: 'Russo';
+  src: url('/fonts/Russo_One/RussoOne-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Golos';
+  src: url('/fonts/Golos_Text/static/GolosText-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@theme {
+    --font-sans: 'Golos', ui-sans-serif, system-ui, sans-serif;
+    --font-display: 'Russo', sans-serif;
+}
