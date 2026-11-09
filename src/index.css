@@ -17,4 +17,14 @@
 @theme {
     --font-sans: 'Golos', ui-sans-serif, system-ui, sans-serif;
     --font-display: 'Russo', sans-serif;
+    --color-accent-red: oklch(57.7% 0.245 27.325);
+    --color-accent-white: oklch(97.1% 0.013 17.38);
+    --color-text-muted: oklch(87.2% 0.01 258.338);
+}
+
+@layer base {
+  body {
+    font-family: var(--font-sans);
+    color: var(--color-text-muted);
+  }
 }
